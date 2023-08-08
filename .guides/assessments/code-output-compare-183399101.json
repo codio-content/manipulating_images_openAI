@@ -1,0 +1,55 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-183399101",
+	"source": {
+		"name": "Code Exerc",
+		"showName": false,
+		"instructions": "When ready to submit, please click on the button below.",
+		"command": "python .guides/secure/gradeEX.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\ndef generate_image(prompt):\n    response = openai.Image.create(\n        prompt=prompt,\n        n=1,\n        size=\"512x512\"\n    )\n    image_url=response['data'][0]['url']\n\n    # Download the image\n    response = requests.get(image_url)\n    img = Image.open(io.BytesIO(response.content))\n    # Apply transformations\n    img = img.convert(\"L\")  # Convert to grayscale\n    img = img.resize((256, 256))  # Resize to 256x256 pixels\n    # Save the image\n    img.save(\"test_img.png\")\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "All checks have passed successfully!\n",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"exerc.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "exerc.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

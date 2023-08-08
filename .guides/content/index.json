@@ -1,0 +1,23 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"Learning-Objectives-ea75",
+		"Text-to-Image-6b8a",
+		"Image-Manipulation-ba11",
+		"Hue-and-Saturation-6c00",
+		"Trying-Out-Different-Color-Variations-7ba0",
+		"Coding-Exercise-9f1c"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Manipulating Images",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

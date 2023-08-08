@@ -1,0 +1,17 @@
+{
+	"id": "6c006528-82b5-68e9-9a7c-9bbd1c3dad14",
+	"title": "Hue and Saturation",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel"
+}

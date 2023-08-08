@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3470323804",
+	"source": {
+		"name": " hue parameter",
+		"showName": false,
+		"instructions": "To create a version of the red image with a more purple hue, what should you set the hue parameter to in the `manipulate_image()` function?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "320242bd-946b-862c-3a4a-c20b7477b0ed",
+				"correct": false,
+				"answer": "0"
+			},
+			{
+				"_id": "27c13c2c-eeb3-fdb6-1190-c7163b573145",
+				"correct": false,
+				"answer": "0.5"
+			},
+			{
+				"_id": "016cc521-7cef-8ccf-0b28-2af875baafc0",
+				"correct": true,
+				"answer": "0.8"
+			},
+			{
+				"_id": "e4612f39-16ee-e8a5-c582-eea94a3b0417",
+				"correct": false,
+				"answer": "1"
+			}
+		],
+		"guidance": "0.8\nIn our assessment, we change a red apple to a more purple one, by giving it hue of 0.8. All other images with a red color scheme would turn close to purple given a hue of 0.8.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name1.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name1.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2638589816",
+	"source": {
+		"name": "function in the provided code",
+		"showName": false,
+		"instructions": "What is the purpose of the `generate_base_image` function in the provided code?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "e1b3c5c4-904d-6ff8-07f6-c07a0c0d670e",
+				"correct": false,
+				"answer": "To download an image from a URL"
+			},
+			{
+				"_id": "5cccbf21-f53b-ab15-a9da-59067da03318",
+				"correct": true,
+				"answer": "To generate an image URL from OpenAI DALL-E using a given prompt"
+			},
+			{
+				"_id": "ad3cdeee-2c1c-c928-d2a2-7cf51919461f",
+				"correct": false,
+				"answer": "To save the generated image to a file"
+			},
+			{
+				"_id": "d3d33308-1c1c-3a0b-70d2-cb61b98cfd65",
+				"correct": false,
+				"answer": "To manipulate the properties of the generated image"
+			}
+		],
+		"guidance": "The `generate_base_image` function in the provided code is responsible for generating an image URL from OpenAI DALL-E using a given prompt. The function takes the prompt as an argument and calls the OpenAI DALL-E API to generate an image URL.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

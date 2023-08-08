@@ -1,0 +1,55 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-1842835991",
+	"source": {
+		"name": "the saturation parameter to 0",
+		"showName": false,
+		"instructions": "What would be the result of setting the saturation parameter to 0 in the `manipulate_image()` function?",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "d8bb1548-673a-038e-114f-a9b16649b9f5",
+				"correct": false,
+				"answer": "The image would become completely black."
+			},
+			{
+				"_id": "9e4a872b-0a68-bdd1-d6a1-e8c1ebd2f474",
+				"correct": false,
+				"answer": "The image would become completely white."
+			},
+			{
+				"_id": "6d720868-2fe0-7a64-554d-32f2038c583b",
+				"correct": true,
+				"answer": "The image would appear in grayscale."
+			},
+			{
+				"_id": "404d329b-832b-48f3-15b0-958b5585d934",
+				"correct": false,
+				"answer": "The image's colors would become more vibrant."
+			}
+		],
+		"guidance": "Setting the saturation parameter to 0 in the `manipulate_image()` function would remove all color from the image, resulting in a grayscale image. The colors would lose their intensity and appear as shades of gray.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

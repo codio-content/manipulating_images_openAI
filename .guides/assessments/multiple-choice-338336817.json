@@ -1,0 +1,68 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-338336817",
+	"source": {
+		"name": "`manipulate_image` function",
+		"showName": false,
+		"instructions": "What method is used to adjust the hue of the image in the `manipulate_image` function?",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "65644a6f-2a06-09a9-ce2d-c63a6575d499",
+				"correct": true,
+				"answer": "ImageOps.colorize"
+			},
+			{
+				"_id": "1bdad747-433f-60d5-0f61-3d5f1c75a625",
+				"correct": false,
+				"answer": "ImageEnhance.Brightness"
+			},
+			{
+				"_id": "26ac9adb-e3d8-2af5-6384-044f8e1bcbf4",
+				"correct": false,
+				"answer": "ImageEnhance.Contrast"
+			},
+			{
+				"_id": "8c419bc3-0d7e-b3e3-4457-821f9879ade8",
+				"correct": false,
+				"answer": "ImageEnhance.Color"
+			}
+		],
+		"guidance": "The `ImageOps.colorize` method is used to adjust the hue of the image in the `manipulate_image` function. The method takes in the converted grayscale image, `black` and `white` as color values, and the midpoint adjusted by the hue parameter to rotate the hue in different directions.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"imageGen.py",
+				"image_name.jpg"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "imageGen.py"
+				},
+				{
+					"type": "file",
+					"panelNumber": 1,
+					"content": "image_name.jpg"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}
